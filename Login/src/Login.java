@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Login {
 
+    // kommentti git palautukseens
     public static String generateEmail(String firstName, String lastName, String domain)
     {
-        // Luo emailin annetuista tiedoista
+        // Luo emailin annetuista tiedoista 
         return firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + domain + ".fi";
     }
 
